@@ -1,0 +1,5 @@
+---
+apic:
+  auto_generate_switch_pod_profiles: true
+  tenants:
+    - name: TN_HELLO
