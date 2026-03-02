@@ -1,5 +1,6 @@
 ---
 apic:
+  auto_generate_switch_pod_profiles: true
   tenants:
     - name: mgmt
 
@@ -47,3 +48,5 @@ apic:
             - name: tcp-entries
               filters:
                 - filter: tcp-src-any-to-dst-443
+    - name: TN_HELLO
+      description: This is a HELLO Tenant
